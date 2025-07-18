@@ -6,11 +6,6 @@ This visualizer provides a step-by-step animation of classic sorting algorithms:
 - **Insertion Sort**
 - **Selection Sort**
 
-### 🚀 Live Demo
-🔗 [View on Vercel](sorting-visualizer-lilac-eight.vercel.app) 
-
----
-
 ## 📌 Features
 
 - 🎨 Visually appealing UI with animated bars representing array elements
