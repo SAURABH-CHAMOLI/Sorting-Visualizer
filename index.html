@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Algorithm Visualizer</h1>
+        
+        <div class="controls">
+            <label for="arrayInput">Enter numbers (comma separated):</label>
+            <input type="text" id="arrayInput" value="64,34,25,12,22,11,90" placeholder="e.g., 5,2,8,1,9">
+            
+            <div id="error" class="error" style="display: none;"></div>
+            
+            <div class="buttons">
+                <button class="algo-btn active" onclick="selectAlgorithm('bubble')">Bubble Sort</button>
+                <button class="algo-btn" onclick="selectAlgorithm('selection')">Selection Sort</button>
+                <button class="algo-btn" onclick="selectAlgorithm('insertion')">Insertion Sort</button>
+                <button class="start-btn" onclick="startSort()">Start Sorting</button>
+            </div>
+        </div>
+
+        <div class="visualizer" id="visualizer"></div>
+
+        <div class="info">
+            <div id="description">
+                <h3>Bubble Sort</h3>
+                <p>Compares adjacent elements and swaps them if they're in wrong order. Repeats until array is sorted.</p>
+                <p><strong>Steps:</strong> 1) Compare neighbors 2) Swap if needed 3) Repeat for all elements</p>
+            </div>
+            
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number" id="comparisons">0</div>
+                    <div class="stat-label">Comparisons</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="swaps">0</div>
+                    <div class="stat-label">Swaps</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
