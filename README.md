@@ -7,7 +7,7 @@ This visualizer provides a step-by-step animation of classic sorting algorithms:
 - **Selection Sort**
 
 ### 🚀 Live Demo
-🔗 sorting-visualizer-lilac-eight.vercel.app  
+🔗 [View on Vercel](sorting-visualizer-lilac-eight.vercel.app) 
 
 ---
 
